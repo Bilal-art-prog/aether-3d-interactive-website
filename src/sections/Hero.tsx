@@ -3,8 +3,8 @@ import { scrollToId } from "@/hooks/useSmoothScroll";
 
 export function Hero() {
   return (
-    <section id="hero" className="relative z-10 flex min-h-svh flex-col justify-end">
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-ink/30 via-transparent to-ink/80" />
+    <section id="hero" className="relative z-10 flex min-h-[100svh] flex-col justify-end">
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/30 via-transparent to-ink/80" />
 
       <div className="relative flex flex-1 flex-col justify-between px-5 pt-28 pb-8 sm:px-8 lg:px-12">
         <div className="flex items-start justify-between gap-6">

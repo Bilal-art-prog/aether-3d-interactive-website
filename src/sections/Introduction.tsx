@@ -1,7 +1,7 @@
 export function Introduction() {
   return (
     <section id="intro" className="relative z-10 bg-ink">
-      <div className="mx-auto flex min-h-svh max-w-7xl flex-col justify-center px-5 py-28 sm:px-8 lg:px-12">
+      <div className="mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-center px-5 py-28 sm:px-8 lg:px-12">
         <p className="tracking-label text-champagne" data-reveal>
           001 — PREFACE
         </p>

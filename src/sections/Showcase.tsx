@@ -31,8 +31,8 @@ export function Showcase() {
 
   return (
     <section id="showcase" className="relative z-10 h-[170vh] md:h-[220vh]">
-      <div className="sticky top-0 flex h-svh flex-col">
-        <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-ink/70 via-transparent to-ink/75" />
+      <div className="sticky top-0 flex h-[100svh] flex-col">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/70 via-transparent to-ink/75" />
 
         <div className="relative flex items-start justify-between px-5 pt-24 sm:px-8 lg:px-12">
           <div>

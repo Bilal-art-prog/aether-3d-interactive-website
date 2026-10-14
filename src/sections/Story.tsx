@@ -10,8 +10,8 @@ const STEPS = [
 export function Story() {
   return (
     <section id="story" className="relative z-10 h-[280vh] md:h-[420vh]">
-      <div className="sticky top-0 flex h-svh flex-col justify-between">
-        <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-ink/55 via-transparent to-ink/70" />
+      <div className="sticky top-0 flex h-[100svh] flex-col justify-between">
+        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/55 via-transparent to-ink/70" />
 
         <div className="relative px-5 pt-24 sm:px-8 lg:px-12">
           <p className="tracking-label text-champagne">004 — SEQUENCE</p>

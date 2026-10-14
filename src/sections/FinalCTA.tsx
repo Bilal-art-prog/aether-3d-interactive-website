@@ -2,8 +2,8 @@ import { MagneticButton } from "@/components/MagneticButton";
 
 export function FinalCTA() {
   return (
-    <section id="cta" className="relative z-10 flex min-h-svh flex-col justify-end">
-      <div className="pointer-events-none absolute inset-0 bg-linear-to-b from-ink/40 via-transparent to-ink" />
+    <section id="cta" className="relative z-10 flex min-h-[100svh] flex-col justify-end">
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-ink/40 via-transparent to-ink" />
 
       <div className="relative px-5 py-24 sm:px-8 lg:px-12">
         <p className="tracking-label text-champagne" data-reveal>
